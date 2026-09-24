@@ -1,0 +1,36 @@
+{
+  "schema": "jy/check-runs/v1",
+  "job_id": "JY-S036-P001",
+  "captured_at": "2026-09-14T00:00:00Z",
+  "version": "0.1.1-partial",
+  "environment": "cloud workspace (Anthropic cowork container), Python 3, Linux",
+  "executor_identity": "claude cowork session 01SaQzDRzMFXvRabmCC6JDJD",
+  "checks": [
+    {
+      "name": "baseline unittest (build-0001)",
+      "command": "python3 -m unittest discover -s tests -t .",
+      "result": "PASS",
+      "tests_passed": 10,
+      "tests_failed": 0
+    },
+    {
+      "name": "defect probes on baseline (A026-F1..F5)",
+      "result": "REPRODUCED",
+      "note": "aliasing, error-contract leaks, NaN/non-strict digest, stale verified evidence after demotion, empty-field acceptance"
+    },
+    {
+      "name": "candidate unittest (0.1.1-partial, final bytes)",
+      "command": "python3 -m unittest discover -s tests -t .",
+      "result": "PASS",
+      "tests_passed": 20,
+      "tests_failed": 0
+    },
+    {
+      "name": "Windows-native launch",
+      "result": "UNRUN",
+      "note": "no Windows runtime available this session"
+    }
+  ],
+  "independent_review": "NOT PERFORMED",
+  "verdict": "PARTIAL_CANDIDATE"
+}
