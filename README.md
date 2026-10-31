@@ -111,6 +111,8 @@ must be modeled with distinct endpoint IDs. Broader certification remains open.
 
 ## License
 
-Copyright 2026 **RUSSELL PHILIP SMITHSON**.
-[Apache License 2.0](LICENSE), with [NOTICE](NOTICE).
+Copyright (C) 2026 **RUSSELL PHILIP SMITHSON**.
+[GNU General Public License, version 3 only (GPL-3.0-only)](LICENSE), with [NOTICE](NOTICE).
 No third-party source is vendored; see [THIRD-PARTY-NOTICES](THIRD-PARTY-NOTICES.md).
+
+See [COPYRIGHT](COPYRIGHT) for the project copyright and GPL notice.
